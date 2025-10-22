@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 const winnerDisplay = document.getElementById('winner-display');
 const restartButton = document.getElementById('restart-button');
 
-const gridSize = 100;
+const gridSize = 20;
 const cols = canvas.width / gridSize;
 const rows = canvas.height / gridSize;
 
