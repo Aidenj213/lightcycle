@@ -37,7 +37,7 @@ canvas {
 }
 
 .player2-color {
-    color: #f0f; /* Magenta */
+    color: #FF0000; /* Red */
 }
 
 #restart-button {
