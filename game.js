@@ -88,7 +88,7 @@ function initGame() {
     player2 = new Bike(
         Math.floor(cols / 4 * 3) * gridSize,
         Math.floor(rows / 2) * gridSize,
-        '#f0f', // Magenta
+        '#FF0000', // Red
         {
             initialDirection: 'left',
             up: 'ArrowUp', down: 'ArrowDown', left: 'ArrowLeft', right: 'ArrowRight'
