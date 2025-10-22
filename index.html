@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Cycle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Light Cycles</h1>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div class="controls">
+            <p><span class="player1-color">Player 1</span>: **W, A, S, D**</p>
+            <p><span class="player2-color">Player 2</span>: **Arrow Keys**</p>
+            <p class="winner-display" id="winner-display">First to crash loses!</p>
+        </div>
+        <button id="restart-button">Restart Game</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
+

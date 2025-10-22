@@ -1,0 +1,59 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+canvas {
+    background-color: #0d0d0d;
+    border: 2px solid #555;
+}
+
+.controls {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    font-size: 1.2em;
+}
+
+.player1-color {
+    color: #0ff; /* Cyan */
+}
+
+.player2-color {
+    color: #f0f; /* Magenta */
+}
+
+#restart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    display: none; /* Hide until game over */
+}
+
+.winner-display {
+    font-size: 1.5em;
+    margin-top: 10px;
+    min-height: 20px; /* Reserve space to prevent layout shift */
+}
+
